@@ -1,0 +1,39 @@
+{
+  "name": "rtn-wefitterhealthconnect",
+  "version": "0.0.1",
+  "description": "React Native library for WeFitter and Health Connect",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-wefitterhealthconnect.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/wefitter/react-native-wefitter-health-connect",
+  "author": "WeFitter <hello@wefitter.com> (https://github.com/wefitter)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wefitter/react-native-wefitter-health-connect/issues"
+  },
+  "homepage": "https://github.com/wefitter/react-native-wefitter-health-connect#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNWeFitterHealthConnectSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnwefitterhealthconnect"
+    }
+  }
+}
